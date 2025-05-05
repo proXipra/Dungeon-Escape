@@ -297,7 +297,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Thumb_Button_0: -6177165616416241449
+      Thumb_Button_1: 6995618299362056165
+      Thumb_Button_2: -1052910523680256685
+      Thumb_Button_3: 2758877337603310836
+      Thumb_Button_4: 8467263125752031900
+      Thumb_Button_5: -5786932450329127743
+      Thumb_Button_6: 3185816408453242896
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

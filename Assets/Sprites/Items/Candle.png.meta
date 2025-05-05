@@ -747,7 +747,32 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Candle_0: 2798290011037525337
+      Candle_1: -3955497793080185783
+      Candle_10: 5189065588605927550
+      Candle_11: -2602876281147283201
+      Candle_12: -110204630540658433
+      Candle_13: 5631900262188096974
+      Candle_14: -2941542394955312873
+      Candle_15: -129458307883797625
+      Candle_16: -465390920527577645
+      Candle_17: -4751396301270057321
+      Candle_18: -1212804706831766368
+      Candle_19: 760845931234422902
+      Candle_2: -6325489899384819232
+      Candle_20: -3159631874279237225
+      Candle_21: -7250448717293580649
+      Candle_22: 4728150915336207569
+      Candle_23: -3779935014121465670
+      Candle_24: 7390620002009096323
+      Candle_3: -5985930699704576664
+      Candle_4: 457811333024209709
+      Candle_5: 6848234656963669333
+      Candle_6: 1059378554383412382
+      Candle_7: 6706023548598896202
+      Candle_8: -8458279978591461314
+      Candle_9: -5945569504087713457
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

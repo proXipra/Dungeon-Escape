@@ -472,7 +472,21 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sword_Two_Particle_0: 6098604653802570251
+      Sword_Two_Particle_1: 6567342008070103140
+      Sword_Two_Particle_10: -2872154695534141364
+      Sword_Two_Particle_11: -7601311946222177694
+      Sword_Two_Particle_12: -155569343393016519
+      Sword_Two_Particle_13: 6814983835209129538
+      Sword_Two_Particle_2: 7130385020220539135
+      Sword_Two_Particle_3: -8187183225943103504
+      Sword_Two_Particle_4: -5398939458060262928
+      Sword_Two_Particle_5: 3571226066515416554
+      Sword_Two_Particle_6: -6428304941505499487
+      Sword_Two_Particle_7: -2729146282536249874
+      Sword_Two_Particle_8: 4522294449123883025
+      Sword_Two_Particle_9: -270484467867558809
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

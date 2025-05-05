@@ -422,7 +422,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Lamp_0: -3535221090349844623
+      Lamp_1: 8197276694922559856
+      Lamp_10: 6703828839870268358
+      Lamp_11: 1693783339181742874
+      Lamp_2: 6069046777230207982
+      Lamp_3: -6449075409508064566
+      Lamp_4: -4813091886450040141
+      Lamp_5: 5668189921828695783
+      Lamp_6: -2891611192952110205
+      Lamp_7: 3764389645340010885
+      Lamp_8: 4017948371705990611
+      Lamp_9: 8134660962992934144
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

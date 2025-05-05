@@ -647,7 +647,28 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Moss_Giant_Attack_0: -1903672223919429875
+      Moss_Giant_Attack_1: 885066989130785602
+      Moss_Giant_Attack_10: 284917083934468436
+      Moss_Giant_Attack_11: 1044200810968105304
+      Moss_Giant_Attack_12: 695892839477706834
+      Moss_Giant_Attack_13: 3821729607967089682
+      Moss_Giant_Attack_14: -2248829063167967721
+      Moss_Giant_Attack_15: -925850944518745546
+      Moss_Giant_Attack_16: -180149098166276347
+      Moss_Giant_Attack_17: -4475558450326172231
+      Moss_Giant_Attack_18: -4013766743051347205
+      Moss_Giant_Attack_19: 610184092463576738
+      Moss_Giant_Attack_2: -8895601373955547053
+      Moss_Giant_Attack_20: 805971067979321658
+      Moss_Giant_Attack_3: 590462230088817120
+      Moss_Giant_Attack_4: 9185977859553562034
+      Moss_Giant_Attack_5: -6820248513215824023
+      Moss_Giant_Attack_6: 7799061112675470860
+      Moss_Giant_Attack_7: 4435653638412302466
+      Moss_Giant_Attack_8: 1841739893291566235
+      Moss_Giant_Attack_9: 7669927044728561126
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
