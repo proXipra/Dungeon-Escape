@@ -25,7 +25,11 @@ public class Player : MonoBehaviour
     void Update()
     {
         Movement();
-        
+
+        if (Input.GetKeyDown(KeyCode.Mouse0) && IsGrounded())
+        {
+            _anim.InitiateTrigger("Attack");
+        }
     }
 
     void Movement()

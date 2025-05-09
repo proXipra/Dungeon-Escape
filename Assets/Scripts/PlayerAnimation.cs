@@ -19,4 +19,9 @@ public class PlayerAnimation : MonoBehaviour
     {
         _anim.SetBool(name, value);
     }
+
+    public void InitiateTrigger(string name)
+    {
+        _anim.SetTrigger(name);
+    }
 }
