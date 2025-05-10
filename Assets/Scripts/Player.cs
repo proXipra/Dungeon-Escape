@@ -7,7 +7,8 @@ public class Player : MonoBehaviour
     private Rigidbody2D _rb;
     private BoxCollider2D _bc;
     private PlayerAnimation _anim;
-    private SpriteRenderer _sprite;
+    private SpriteRenderer _playerSprite;
+    private SpriteRenderer _arcSprite;
 
     [SerializeField] private float _moveSpeed = 3f;
     [SerializeField] private float _jumpForce = 250f;
@@ -18,8 +19,9 @@ public class Player : MonoBehaviour
     {
         _rb = GetComponent<Rigidbody2D>();  
         _bc = GetComponent<BoxCollider2D>();   
-        _anim = GetComponent<PlayerAnimation>();    
-        _sprite = GetComponentInChildren<SpriteRenderer>();
+        _anim = GetComponent<PlayerAnimation>();
+        _playerSprite = GetComponentInChildren<SpriteRenderer>();
+        _arcSprite = transform.GetChild(1).GetComponent<SpriteRenderer>();
     }
 
     void Update()
@@ -28,7 +30,8 @@ public class Player : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Mouse0) && IsGrounded())
         {
-            _anim.InitiateTrigger("Attack");
+            Debug.Log("Attack!");
+            _anim.Attack();
         }
     }
 
@@ -68,9 +71,10 @@ public class Player : MonoBehaviour
         if (horizontalInput == 0) { return; }
 
         bool shouldFlip = horizontalInput < 0;
-        if (_sprite.flipX != shouldFlip)
+        if (_playerSprite.flipX != shouldFlip)
         {
-            _sprite.flipX = shouldFlip;
+            _playerSprite.flipX = shouldFlip;
+            _arcSprite.flipY = shouldFlip;
         }
     }
 

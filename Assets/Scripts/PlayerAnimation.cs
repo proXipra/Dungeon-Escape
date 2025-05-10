@@ -2,26 +2,29 @@ using UnityEngine;
 
 public class PlayerAnimation : MonoBehaviour
 {
-    private Animator _anim;
+    private Animator _spriteAnim;
+    private Animator _swordAnim;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        _anim = GetComponentInChildren<Animator>();
+        _spriteAnim = transform.GetChild(0).GetComponent<Animator>();
+        _swordAnim = transform.GetChild(1).GetComponent<Animator>();
     }
 
     public void Move(float move)
     {
-        _anim.SetFloat("Move", Mathf.Abs(move));
+        _spriteAnim.SetFloat("Move", Mathf.Abs(move));
     }
 
     public void UpdateBool(string name, bool value)
     {
-        _anim.SetBool(name, value);
+        _spriteAnim.SetBool(name, value);
     }
 
-    public void InitiateTrigger(string name)
+    public void Attack()
     {
-        _anim.SetTrigger(name);
+        _spriteAnim.SetTrigger("Attack");
+        _swordAnim.SetTrigger("SwordAnimation");
     }
 }
