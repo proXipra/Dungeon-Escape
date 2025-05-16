@@ -141,7 +141,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -199,6 +199,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -206,10 +219,10 @@ TextureImporter:
       name: Spider_Idle_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 813
-        width: 209
-        height: 84
+        x: 0
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,10 +241,10 @@ TextureImporter:
       name: Spider_Idle_1
       rect:
         serializedVersion: 2
-        x: 268
-        y: 813
-        width: 209
-        height: 84
+        x: 256
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,10 +263,10 @@ TextureImporter:
       name: Spider_Idle_2
       rect:
         serializedVersion: 2
-        x: 524
-        y: 813
-        width: 210
-        height: 82
+        x: 512
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,10 +285,10 @@ TextureImporter:
       name: Spider_Idle_3
       rect:
         serializedVersion: 2
-        x: 780
-        y: 813
-        width: 211
-        height: 87
+        x: 768
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,10 +307,10 @@ TextureImporter:
       name: Spider_Idle_4
       rect:
         serializedVersion: 2
-        x: 1036
-        y: 813
-        width: 212
-        height: 92
+        x: 1024
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,10 +329,10 @@ TextureImporter:
       name: Spider_Idle_5
       rect:
         serializedVersion: 2
-        x: 1292
-        y: 813
-        width: 214
-        height: 95
+        x: 1280
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -338,10 +351,10 @@ TextureImporter:
       name: Spider_Idle_6
       rect:
         serializedVersion: 2
-        x: 1548
-        y: 813
-        width: 217
-        height: 94
+        x: 1536
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,10 +373,10 @@ TextureImporter:
       name: Spider_Idle_7
       rect:
         serializedVersion: 2
-        x: 1804
-        y: 813
-        width: 221
-        height: 85
+        x: 1792
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,10 +395,10 @@ TextureImporter:
       name: Spider_Idle_8
       rect:
         serializedVersion: 2
-        x: 12
-        y: 557
-        width: 227
-        height: 74
+        x: 0
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,10 +417,10 @@ TextureImporter:
       name: Spider_Idle_9
       rect:
         serializedVersion: 2
-        x: 268
-        y: 557
-        width: 231
-        height: 81
+        x: 256
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -426,10 +439,10 @@ TextureImporter:
       name: Spider_Idle_10
       rect:
         serializedVersion: 2
-        x: 524
-        y: 557
-        width: 233
-        height: 86
+        x: 512
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -448,10 +461,10 @@ TextureImporter:
       name: Spider_Idle_11
       rect:
         serializedVersion: 2
-        x: 780
-        y: 557
-        width: 234
-        height: 90
+        x: 768
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,10 +483,10 @@ TextureImporter:
       name: Spider_Idle_12
       rect:
         serializedVersion: 2
-        x: 1036
-        y: 557
-        width: 234
-        height: 92
+        x: 1024
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -492,10 +505,10 @@ TextureImporter:
       name: Spider_Idle_13
       rect:
         serializedVersion: 2
-        x: 1292
-        y: 557
-        width: 234
-        height: 94
+        x: 1280
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -514,10 +527,10 @@ TextureImporter:
       name: Spider_Idle_14
       rect:
         serializedVersion: 2
-        x: 1548
-        y: 557
-        width: 233
-        height: 97
+        x: 1536
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -536,10 +549,10 @@ TextureImporter:
       name: Spider_Idle_15
       rect:
         serializedVersion: 2
-        x: 1804
-        y: 557
-        width: 231
-        height: 100
+        x: 1792
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -558,10 +571,10 @@ TextureImporter:
       name: Spider_Idle_16
       rect:
         serializedVersion: 2
-        x: 12
-        y: 301
-        width: 226
-        height: 102
+        x: 0
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -580,10 +593,10 @@ TextureImporter:
       name: Spider_Idle_17
       rect:
         serializedVersion: 2
-        x: 268
-        y: 301
-        width: 220
-        height: 102
+        x: 256
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -602,10 +615,10 @@ TextureImporter:
       name: Spider_Idle_18
       rect:
         serializedVersion: 2
-        x: 524
-        y: 301
-        width: 212
-        height: 102
+        x: 512
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -624,10 +637,10 @@ TextureImporter:
       name: Spider_Idle_19
       rect:
         serializedVersion: 2
-        x: 780
-        y: 301
-        width: 205
-        height: 102
+        x: 768
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -646,10 +659,10 @@ TextureImporter:
       name: Spider_Idle_20
       rect:
         serializedVersion: 2
-        x: 1036
-        y: 301
-        width: 199
-        height: 102
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -668,10 +681,10 @@ TextureImporter:
       name: Spider_Idle_21
       rect:
         serializedVersion: 2
-        x: 1292
-        y: 301
-        width: 195
-        height: 101
+        x: 1280
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -690,10 +703,10 @@ TextureImporter:
       name: Spider_Idle_22
       rect:
         serializedVersion: 2
-        x: 1548
-        y: 301
-        width: 195
-        height: 101
+        x: 1536
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -712,10 +725,10 @@ TextureImporter:
       name: Spider_Idle_23
       rect:
         serializedVersion: 2
-        x: 1804
-        y: 301
-        width: 202
-        height: 101
+        x: 1792
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -734,10 +747,10 @@ TextureImporter:
       name: Spider_Idle_24
       rect:
         serializedVersion: 2
-        x: 12
-        y: 45
-        width: 214
-        height: 98
+        x: 0
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -756,10 +769,10 @@ TextureImporter:
       name: Spider_Idle_25
       rect:
         serializedVersion: 2
-        x: 268
-        y: 45
-        width: 226
-        height: 94
+        x: 256
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -778,10 +791,10 @@ TextureImporter:
       name: Spider_Idle_26
       rect:
         serializedVersion: 2
-        x: 524
-        y: 45
-        width: 231
-        height: 91
+        x: 512
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -800,10 +813,10 @@ TextureImporter:
       name: Spider_Idle_27
       rect:
         serializedVersion: 2
-        x: 780
-        y: 45
-        width: 228
-        height: 89
+        x: 768
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -822,10 +835,10 @@ TextureImporter:
       name: Spider_Idle_28
       rect:
         serializedVersion: 2
-        x: 1036
-        y: 45
-        width: 220
-        height: 87
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -844,10 +857,10 @@ TextureImporter:
       name: Spider_Idle_29
       rect:
         serializedVersion: 2
-        x: 1292
-        y: 45
-        width: 213
-        height: 85
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -866,10 +879,10 @@ TextureImporter:
       name: Spider_Idle_30
       rect:
         serializedVersion: 2
-        x: 1548
-        y: 45
-        width: 209
-        height: 84
+        x: 1536
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -888,7 +901,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 84b38feeda499de459cd0e7b9f6a7bae
     internalID: 0
     vertices: []
     indices: 

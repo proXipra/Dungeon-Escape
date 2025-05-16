@@ -141,7 +141,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -199,6 +199,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -206,10 +219,10 @@ TextureImporter:
       name: Spider_Walk_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 813
-        width: 220
-        height: 68
+        x: 0
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,10 +241,10 @@ TextureImporter:
       name: Spider_Walk_1
       rect:
         serializedVersion: 2
-        x: 277
-        y: 813
-        width: 218
-        height: 68
+        x: 256
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,10 +263,10 @@ TextureImporter:
       name: Spider_Walk_2
       rect:
         serializedVersion: 2
-        x: 534
-        y: 813
-        width: 214
-        height: 69
+        x: 512
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,10 +285,10 @@ TextureImporter:
       name: Spider_Walk_3
       rect:
         serializedVersion: 2
-        x: 792
-        y: 813
-        width: 209
-        height: 69
+        x: 768
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,10 +307,10 @@ TextureImporter:
       name: Spider_Walk_4
       rect:
         serializedVersion: 2
-        x: 1050
-        y: 813
-        width: 202
-        height: 70
+        x: 1024
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,10 +329,10 @@ TextureImporter:
       name: Spider_Walk_5
       rect:
         serializedVersion: 2
-        x: 1309
-        y: 813
-        width: 194
-        height: 71
+        x: 1280
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -338,10 +351,10 @@ TextureImporter:
       name: Spider_Walk_6
       rect:
         serializedVersion: 2
-        x: 1563
-        y: 813
-        width: 190
-        height: 71
+        x: 1536
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,10 +373,10 @@ TextureImporter:
       name: Spider_Walk_7
       rect:
         serializedVersion: 2
-        x: 1817
-        y: 814
-        width: 186
-        height: 70
+        x: 1792
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,10 +395,10 @@ TextureImporter:
       name: Spider_Walk_8
       rect:
         serializedVersion: 2
-        x: 23
-        y: 558
-        width: 183
-        height: 70
+        x: 0
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,10 +417,10 @@ TextureImporter:
       name: Spider_Walk_9
       rect:
         serializedVersion: 2
-        x: 277
-        y: 558
-        width: 179
-        height: 69
+        x: 256
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -426,10 +439,10 @@ TextureImporter:
       name: Spider_Walk_10
       rect:
         serializedVersion: 2
-        x: 531
-        y: 558
-        width: 178
-        height: 68
+        x: 512
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -448,10 +461,10 @@ TextureImporter:
       name: Spider_Walk_11
       rect:
         serializedVersion: 2
-        x: 785
-        y: 558
-        width: 182
-        height: 69
+        x: 768
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,10 +483,10 @@ TextureImporter:
       name: Spider_Walk_12
       rect:
         serializedVersion: 2
-        x: 1039
-        y: 558
-        width: 185
-        height: 69
+        x: 1024
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -492,10 +505,10 @@ TextureImporter:
       name: Spider_Walk_13
       rect:
         serializedVersion: 2
-        x: 1293
-        y: 558
-        width: 186
-        height: 70
+        x: 1280
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -514,10 +527,10 @@ TextureImporter:
       name: Spider_Walk_14
       rect:
         serializedVersion: 2
-        x: 1547
-        y: 558
-        width: 186
-        height: 71
+        x: 1536
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -536,10 +549,10 @@ TextureImporter:
       name: Spider_Walk_15
       rect:
         serializedVersion: 2
-        x: 1801
-        y: 558
-        width: 187
-        height: 72
+        x: 1792
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -558,10 +571,10 @@ TextureImporter:
       name: Spider_Walk_16
       rect:
         serializedVersion: 2
-        x: 7
-        y: 302
-        width: 192
-        height: 73
+        x: 0
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -580,10 +593,10 @@ TextureImporter:
       name: Spider_Walk_17
       rect:
         serializedVersion: 2
-        x: 262
-        y: 301
-        width: 197
-        height: 76
+        x: 256
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -602,10 +615,10 @@ TextureImporter:
       name: Spider_Walk_18
       rect:
         serializedVersion: 2
-        x: 517
-        y: 300
-        width: 202
-        height: 77
+        x: 512
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -624,10 +637,10 @@ TextureImporter:
       name: Spider_Walk_19
       rect:
         serializedVersion: 2
-        x: 773
-        y: 300
-        width: 205
-        height: 77
+        x: 768
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -646,10 +659,10 @@ TextureImporter:
       name: Spider_Walk_20
       rect:
         serializedVersion: 2
-        x: 1030
-        y: 300
-        width: 207
-        height: 77
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -668,10 +681,10 @@ TextureImporter:
       name: Spider_Walk_21
       rect:
         serializedVersion: 2
-        x: 1289
-        y: 301
-        width: 207
-        height: 74
+        x: 1280
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -690,10 +703,10 @@ TextureImporter:
       name: Spider_Walk_22
       rect:
         serializedVersion: 2
-        x: 1548
-        y: 301
-        width: 207
-        height: 72
+        x: 1536
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -712,10 +725,10 @@ TextureImporter:
       name: Spider_Walk_23
       rect:
         serializedVersion: 2
-        x: 1807
-        y: 301
-        width: 208
-        height: 71
+        x: 1792
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -734,10 +747,10 @@ TextureImporter:
       name: Spider_Walk_24
       rect:
         serializedVersion: 2
-        x: 18
-        y: 46
-        width: 209
-        height: 70
+        x: 0
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -756,10 +769,10 @@ TextureImporter:
       name: Spider_Walk_25
       rect:
         serializedVersion: 2
-        x: 277
-        y: 46
-        width: 209
-        height: 69
+        x: 256
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -778,10 +791,10 @@ TextureImporter:
       name: Spider_Walk_26
       rect:
         serializedVersion: 2
-        x: 536
-        y: 46
-        width: 209
-        height: 69
+        x: 512
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -800,10 +813,10 @@ TextureImporter:
       name: Spider_Walk_27
       rect:
         serializedVersion: 2
-        x: 795
-        y: 46
-        width: 209
-        height: 68
+        x: 768
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -822,10 +835,10 @@ TextureImporter:
       name: Spider_Walk_28
       rect:
         serializedVersion: 2
-        x: 1047
-        y: 47
-        width: 215
-        height: 67
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -844,10 +857,10 @@ TextureImporter:
       name: Spider_Walk_29
       rect:
         serializedVersion: 2
-        x: 1301
-        y: 47
-        width: 218
-        height: 66
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -866,10 +879,10 @@ TextureImporter:
       name: Spider_Walk_30
       rect:
         serializedVersion: 2
-        x: 1556
-        y: 45
-        width: 220
-        height: 68
+        x: 1536
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -888,7 +901,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3a277f5351289b54c86143434bc7e79c
     internalID: 0
     vertices: []
     indices: 
