@@ -30,7 +30,7 @@ public class Player : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Mouse0) && IsGrounded())
         {
-            Debug.Log("Attack!");
+            //Debug.Log("Attack!");
             _anim.Attack();
         }
     }

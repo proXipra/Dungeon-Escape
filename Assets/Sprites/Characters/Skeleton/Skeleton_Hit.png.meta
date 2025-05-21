@@ -135,7 +135,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -193,6 +193,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -200,10 +213,10 @@ TextureImporter:
       name: Skeleton_Hit_0
       rect:
         serializedVersion: 2
-        x: 87
-        y: 824
-        width: 60
-        height: 116
+        x: 0
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,10 +235,10 @@ TextureImporter:
       name: Skeleton_Hit_1
       rect:
         serializedVersion: 2
-        x: 337
-        y: 824
-        width: 64
-        height: 116
+        x: 256
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,10 +257,10 @@ TextureImporter:
       name: Skeleton_Hit_2
       rect:
         serializedVersion: 2
-        x: 593
-        y: 824
-        width: 64
-        height: 116
+        x: 512
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,10 +279,10 @@ TextureImporter:
       name: Skeleton_Hit_3
       rect:
         serializedVersion: 2
-        x: 856
-        y: 824
-        width: 57
-        height: 116
+        x: 768
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,10 +301,10 @@ TextureImporter:
       name: Skeleton_Hit_4
       rect:
         serializedVersion: 2
-        x: 1112
-        y: 824
-        width: 57
-        height: 108
+        x: 1024
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,10 +323,10 @@ TextureImporter:
       name: Skeleton_Hit_5
       rect:
         serializedVersion: 2
-        x: 1368
-        y: 824
-        width: 57
-        height: 99
+        x: 1280
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -332,10 +345,10 @@ TextureImporter:
       name: Skeleton_Hit_6
       rect:
         serializedVersion: 2
-        x: 1624
-        y: 824
-        width: 61
-        height: 98
+        x: 1536
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -354,10 +367,10 @@ TextureImporter:
       name: Skeleton_Hit_7
       rect:
         serializedVersion: 2
-        x: 1880
-        y: 824
-        width: 71
-        height: 98
+        x: 1792
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -376,10 +389,10 @@ TextureImporter:
       name: Skeleton_Hit_8
       rect:
         serializedVersion: 2
-        x: 88
-        y: 568
-        width: 66
-        height: 118
+        x: 0
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -398,10 +411,10 @@ TextureImporter:
       name: Skeleton_Hit_9
       rect:
         serializedVersion: 2
-        x: 343
-        y: 568
-        width: 58
-        height: 128
+        x: 256
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -420,10 +433,10 @@ TextureImporter:
       name: Skeleton_Hit_10
       rect:
         serializedVersion: 2
-        x: 589
-        y: 568
-        width: 68
-        height: 114
+        x: 512
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -442,10 +455,10 @@ TextureImporter:
       name: Skeleton_Hit_11
       rect:
         serializedVersion: 2
-        x: 839
-        y: 568
-        width: 74
-        height: 109
+        x: 768
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -464,10 +477,10 @@ TextureImporter:
       name: Skeleton_Hit_12
       rect:
         serializedVersion: 2
-        x: 1090
-        y: 568
-        width: 79
-        height: 106
+        x: 1024
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -486,10 +499,10 @@ TextureImporter:
       name: Skeleton_Hit_13
       rect:
         serializedVersion: 2
-        x: 1342
-        y: 568
-        width: 83
-        height: 107
+        x: 1280
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -508,10 +521,10 @@ TextureImporter:
       name: Skeleton_Hit_14
       rect:
         serializedVersion: 2
-        x: 1597
-        y: 568
-        width: 84
-        height: 111
+        x: 1536
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -530,10 +543,10 @@ TextureImporter:
       name: Skeleton_Hit_15
       rect:
         serializedVersion: 2
-        x: 1854
-        y: 568
-        width: 83
-        height: 118
+        x: 1792
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -552,10 +565,10 @@ TextureImporter:
       name: Skeleton_Hit_16
       rect:
         serializedVersion: 2
-        x: 64
-        y: 312
-        width: 82
-        height: 124
+        x: 0
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -574,10 +587,10 @@ TextureImporter:
       name: Skeleton_Hit_17
       rect:
         serializedVersion: 2
-        x: 321
-        y: 312
-        width: 81
-        height: 127
+        x: 256
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -596,10 +609,10 @@ TextureImporter:
       name: Skeleton_Hit_18
       rect:
         serializedVersion: 2
-        x: 578
-        y: 312
-        width: 79
-        height: 129
+        x: 512
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -618,10 +631,10 @@ TextureImporter:
       name: Skeleton_Hit_19
       rect:
         serializedVersion: 2
-        x: 840
-        y: 312
-        width: 73
-        height: 132
+        x: 768
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -640,10 +653,10 @@ TextureImporter:
       name: Skeleton_Hit_20
       rect:
         serializedVersion: 2
-        x: 1099
-        y: 312
-        width: 70
-        height: 133
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -662,10 +675,10 @@ TextureImporter:
       name: Skeleton_Hit_21
       rect:
         serializedVersion: 2
-        x: 1358
-        y: 312
-        width: 67
-        height: 133
+        x: 1280
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -684,10 +697,10 @@ TextureImporter:
       name: Skeleton_Hit_22
       rect:
         serializedVersion: 2
-        x: 1616
-        y: 312
-        width: 65
-        height: 133
+        x: 1536
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -706,10 +719,10 @@ TextureImporter:
       name: Skeleton_Hit_23
       rect:
         serializedVersion: 2
-        x: 1874
-        y: 312
-        width: 63
-        height: 132
+        x: 1792
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -728,10 +741,10 @@ TextureImporter:
       name: Skeleton_Hit_24
       rect:
         serializedVersion: 2
-        x: 85
-        y: 56
-        width: 60
-        height: 131
+        x: 0
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -750,10 +763,10 @@ TextureImporter:
       name: Skeleton_Hit_25
       rect:
         serializedVersion: 2
-        x: 344
-        y: 56
-        width: 57
-        height: 129
+        x: 256
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -772,10 +785,10 @@ TextureImporter:
       name: Skeleton_Hit_26
       rect:
         serializedVersion: 2
-        x: 600
-        y: 56
-        width: 57
-        height: 127
+        x: 512
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -794,10 +807,10 @@ TextureImporter:
       name: Skeleton_Hit_27
       rect:
         serializedVersion: 2
-        x: 856
-        y: 56
-        width: 57
-        height: 125
+        x: 768
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -816,10 +829,10 @@ TextureImporter:
       name: Skeleton_Hit_28
       rect:
         serializedVersion: 2
-        x: 1112
-        y: 56
-        width: 57
-        height: 123
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -838,7 +851,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 60e72ff17c5a2124d8a7174b22fde900
     internalID: 0
     vertices: []
     indices: 
