@@ -12,8 +12,9 @@ public class Skeleton : Enemy, IDamageable
     public void Damage()
     {
         Health--;
-        Debug.Log("Health: " + Health);
-        Debug.Log("_health: " + _health);
+        isHit = true;
+        _animator.SetTrigger("Hit");
+        _animator.SetBool("InCombat", true);
         if (Health <= 0)
         {
             Destroy(this.gameObject);

@@ -14,6 +14,9 @@ public abstract class Enemy : MonoBehaviour
     protected Animator _animator;
     protected SpriteRenderer _sprite;
 
+    protected bool isHit;
+    [SerializeField] private Transform _player;
+
     protected virtual void Init()
     {
         waypoints = waypointsParent != null ? waypointsParent.GetComponentsInChildren<Transform>().
@@ -32,6 +35,16 @@ public abstract class Enemy : MonoBehaviour
 
     protected virtual void Update()
     {
+        if (isHit)
+        {
+            float distance = Vector3.Distance(transform.position, _player.position);
+            if (distance > 2f)
+            {
+                isHit = false;
+                _animator.SetBool("InCombat", false);
+            }
+        }
+
         if (_animator.GetCurrentAnimatorStateInfo(0).IsTag("Idle"))
         {
             return;
@@ -55,12 +68,14 @@ public abstract class Enemy : MonoBehaviour
             //_animator.SetTrigger("Idle");
         }
 
-        transform.position = Vector3.MoveTowards(transform.position, _targetPos, _speed * Time.deltaTime);
+        if (!isHit)  
+        {
+            transform.position = Vector3.MoveTowards(transform.position, _targetPos, _speed * Time.deltaTime);
+        }
 
         if (transform.position.x == waypoints[0].position.x || transform.position.x == waypoints[1].position.x)
         {
             _animator.SetTrigger("Idle");
-
         }
     }
 
