@@ -9,6 +9,13 @@ public class Skeleton : Enemy, IDamageable
         base.Init();
         Health = base.health;
     }
+
+    protected override void Movement()
+    {
+        base.Movement();
+
+        
+    }
     public void Damage()
     {
         Health--;

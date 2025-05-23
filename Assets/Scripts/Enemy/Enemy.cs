@@ -15,7 +15,7 @@ public abstract class Enemy : MonoBehaviour
     protected SpriteRenderer sprite;
 
     protected bool isHit;
-    private Transform _player;
+    protected Transform player;
 
     protected virtual void Init()
     {
@@ -27,7 +27,7 @@ public abstract class Enemy : MonoBehaviour
         sprite = GetComponentInChildren<SpriteRenderer>() ??
             throw new MissingComponentException("SpriteRenderer is NULL");
 
-        _player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>() ??
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>() ??
                          throw new MissingComponentException("Animator is NULL!");
     }
 
@@ -53,12 +53,12 @@ public abstract class Enemy : MonoBehaviour
         if (transform.position.x == waypoints[0].position.x)
         {
             targetPosition = waypoints[1].position;
-            //_animator.SetTrigger("Idle");
+            //animator.SetTrigger("Idle");
         }
         else if (transform.position.x == waypoints[1].position.x)
         {
             targetPosition = waypoints[0].position;
-            //_animator.SetTrigger("Idle");
+            //animator.SetTrigger("Idle");
         }
 
         if (isHit == false)  
@@ -67,13 +67,17 @@ public abstract class Enemy : MonoBehaviour
         }
         else
         {
-            float distance = Vector3.Distance(transform.position, targetPosition);
+            float distance = Vector3.Distance(transform.position, player.position);
             Debug.Log("Name: "+ transform.name + " Distance: "+ distance);
-            if (distance < 2f)  
+            if (distance > 2f)  
             {
                 isHit = false;
                 animator.SetBool("InCombat", false);
             }
+
+            Vector3 direction = transform.position - player.position;
+            sprite.flipX = direction.x > 0;
+
         }
 
         if (transform.position.x == waypoints[0].position.x || transform.position.x == waypoints[1].position.x)
