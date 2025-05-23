@@ -38,17 +38,7 @@ public abstract class Enemy : MonoBehaviour
 
     protected virtual void Update()
     {
-        if (isHit == true)
-        {
-            float distance = Vector3.Distance(transform.position, _player.position);
-            if (distance > 2f)
-            {
-                isHit = false;
-                animator.SetBool("InCombat", false);
-            }
-        }
-
-        if (animator.GetCurrentAnimatorStateInfo(0).IsTag("Idle"))
+        if (animator.GetCurrentAnimatorStateInfo(0).IsTag("Idle") && animator.GetBool("InCombat") == false)
         {
             return;
         }
@@ -74,6 +64,16 @@ public abstract class Enemy : MonoBehaviour
         if (isHit == false)  
         {
             transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
+        }
+        else
+        {
+            float distance = Vector3.Distance(transform.position, targetPosition);
+            Debug.Log("Name: "+ transform.name + " Distance: "+ distance);
+            if (distance < 2f)  
+            {
+                isHit = false;
+                animator.SetBool("InCombat", false);
+            }
         }
 
         if (transform.position.x == waypoints[0].position.x || transform.position.x == waypoints[1].position.x)
