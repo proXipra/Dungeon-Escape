@@ -6,13 +6,13 @@ public class MossGiant : Enemy, IDamageable
     protected override void Init()
     {
         base.Init();
-        Health = base._health;
+        Health = base.health;
     }
     public void Damage()
     {
         Health--;
         Debug.Log("Health: "+ Health);
-        Debug.Log("_health: "+ _health);
+        Debug.Log("_health: "+ health);
         if (Health <= 0)
         {
             Destroy(this.gameObject);

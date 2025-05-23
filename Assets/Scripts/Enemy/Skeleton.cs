@@ -7,14 +7,14 @@ public class Skeleton : Enemy, IDamageable
     protected override void Init()
     {
         base.Init();
-        Health = base._health;
+        Health = base.health;
     }
     public void Damage()
     {
         Health--;
         isHit = true;
-        _animator.SetTrigger("Hit");
-        _animator.SetBool("InCombat", true);
+        animator.SetTrigger("Hit");
+        animator.SetBool("InCombat", true);
         if (Health <= 0)
         {
             Destroy(this.gameObject);
