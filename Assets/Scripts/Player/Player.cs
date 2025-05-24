@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : MonoBehaviour, IDamageable
 {
     private Rigidbody2D _rb;
     private BoxCollider2D _bc;
@@ -14,6 +14,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float _jumpForce = 250f;
     private bool _delayJumping;
 
+    public int Health { get; set; }
 
     void Start()
     {
@@ -83,5 +84,11 @@ public class Player : MonoBehaviour
     {
         yield return new WaitForSeconds(0.3f);
         _delayJumping = false;
+    }
+
+
+    public void Damage()
+    {
+        Debug.Log("Damage has taken");
     }
 }

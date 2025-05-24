@@ -10,12 +10,7 @@ public class Skeleton : Enemy, IDamageable
         Health = base.health;
     }
 
-    protected override void Movement()
-    {
-        base.Movement();
 
-        
-    }
     public void Damage()
     {
         Health--;

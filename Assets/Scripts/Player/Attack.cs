@@ -23,3 +23,6 @@ public class Attack : MonoBehaviour
         _canDamage = true;
     }
 }
+
+
+
