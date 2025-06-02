@@ -141,7 +141,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -199,6 +199,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -206,10 +219,10 @@ TextureImporter:
       name: Spider_Death_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 813
-        width: 219
-        height: 65
+        x: 0
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,10 +241,10 @@ TextureImporter:
       name: Spider_Death_1
       rect:
         serializedVersion: 2
-        x: 272
-        y: 817
-        width: 215
-        height: 87
+        x: 256
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,10 +263,10 @@ TextureImporter:
       name: Spider_Death_2
       rect:
         serializedVersion: 2
-        x: 532
-        y: 819
-        width: 193
-        height: 140
+        x: 512
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,10 +285,10 @@ TextureImporter:
       name: Spider_Death_3
       rect:
         serializedVersion: 2
-        x: 797
-        y: 820
-        width: 149
-        height: 157
+        x: 768
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,10 +307,10 @@ TextureImporter:
       name: Spider_Death_4
       rect:
         serializedVersion: 2
-        x: 1049
-        y: 815
-        width: 163
-        height: 159
+        x: 1024
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,10 +329,10 @@ TextureImporter:
       name: Spider_Death_5
       rect:
         serializedVersion: 2
-        x: 1314
-        y: 808
-        width: 164
-        height: 133
+        x: 1280
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -338,10 +351,10 @@ TextureImporter:
       name: Spider_Death_6
       rect:
         serializedVersion: 2
-        x: 1553
-        y: 824
-        width: 171
-        height: 80
+        x: 1536
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,10 +373,10 @@ TextureImporter:
       name: Spider_Death_7
       rect:
         serializedVersion: 2
-        x: 1814
-        y: 805
-        width: 156
-        height: 104
+        x: 1792
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,10 +395,10 @@ TextureImporter:
       name: Spider_Death_8
       rect:
         serializedVersion: 2
-        x: 32
-        y: 535
-        width: 149
-        height: 114
+        x: 0
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,10 +417,10 @@ TextureImporter:
       name: Spider_Death_9
       rect:
         serializedVersion: 2
-        x: 295
-        y: 531
-        width: 143
-        height: 131
+        x: 256
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -426,10 +439,10 @@ TextureImporter:
       name: Spider_Death_10
       rect:
         serializedVersion: 2
-        x: 552
-        y: 547
-        width: 141
-        height: 116
+        x: 512
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -448,10 +461,10 @@ TextureImporter:
       name: Spider_Death_11
       rect:
         serializedVersion: 2
-        x: 803
-        y: 560
-        width: 142
-        height: 94
+        x: 768
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,10 +483,10 @@ TextureImporter:
       name: Spider_Death_12
       rect:
         serializedVersion: 2
-        x: 1054
-        y: 557
-        width: 144
-        height: 90
+        x: 1024
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -492,10 +505,10 @@ TextureImporter:
       name: Spider_Death_13
       rect:
         serializedVersion: 2
-        x: 1303
-        y: 552
-        width: 147
-        height: 95
+        x: 1280
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -514,10 +527,10 @@ TextureImporter:
       name: Spider_Death_14
       rect:
         serializedVersion: 2
-        x: 1554
-        y: 549
-        width: 159
-        height: 97
+        x: 1536
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -536,10 +549,10 @@ TextureImporter:
       name: Spider_Death_15
       rect:
         serializedVersion: 2
-        x: 1805
-        y: 549
-        width: 170
-        height: 95
+        x: 1792
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -558,10 +571,10 @@ TextureImporter:
       name: Spider_Death_16
       rect:
         serializedVersion: 2
-        x: 13
-        y: 288
-        width: 164
-        height: 95
+        x: 0
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -580,10 +593,10 @@ TextureImporter:
       name: Spider_Death_17
       rect:
         serializedVersion: 2
-        x: 277
-        y: 280
-        width: 154
-        height: 108
+        x: 256
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -602,10 +615,10 @@ TextureImporter:
       name: Spider_Death_18
       rect:
         serializedVersion: 2
-        x: 538
-        y: 270
-        width: 152
-        height: 131
+        x: 512
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -624,10 +637,10 @@ TextureImporter:
       name: Spider_Death_19
       rect:
         serializedVersion: 2
-        x: 806
-        y: 280
-        width: 140
-        height: 127
+        x: 768
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -646,10 +659,10 @@ TextureImporter:
       name: Spider_Death_20
       rect:
         serializedVersion: 2
-        x: 1069
-        y: 289
-        width: 133
-        height: 117
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -668,10 +681,10 @@ TextureImporter:
       name: Spider_Death_21
       rect:
         serializedVersion: 2
-        x: 1323
-        y: 293
-        width: 135
-        height: 111
+        x: 1280
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -690,10 +703,10 @@ TextureImporter:
       name: Spider_Death_22
       rect:
         serializedVersion: 2
-        x: 1583
-        y: 296
-        width: 131
-        height: 105
+        x: 1536
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -712,10 +725,10 @@ TextureImporter:
       name: Spider_Death_23
       rect:
         serializedVersion: 2
-        x: 1842
-        y: 297
-        width: 127
-        height: 104
+        x: 1792
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -734,10 +747,10 @@ TextureImporter:
       name: Spider_Death_24
       rect:
         serializedVersion: 2
-        x: 49
-        y: 43
-        width: 128
-        height: 101
+        x: 0
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -756,10 +769,10 @@ TextureImporter:
       name: Spider_Death_25
       rect:
         serializedVersion: 2
-        x: 305
-        y: 44
-        width: 128
-        height: 100
+        x: 256
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -778,10 +791,10 @@ TextureImporter:
       name: Spider_Death_26
       rect:
         serializedVersion: 2
-        x: 561
-        y: 44
-        width: 128
-        height: 99
+        x: 512
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -800,10 +813,10 @@ TextureImporter:
       name: Spider_Death_27
       rect:
         serializedVersion: 2
-        x: 816
-        y: 44
-        width: 129
-        height: 100
+        x: 768
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -822,10 +835,10 @@ TextureImporter:
       name: Spider_Death_28
       rect:
         serializedVersion: 2
-        x: 1071
-        y: 42
-        width: 129
-        height: 102
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -844,10 +857,10 @@ TextureImporter:
       name: Spider_Death_29
       rect:
         serializedVersion: 2
-        x: 1326
-        y: 44
-        width: 130
-        height: 100
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -866,10 +879,10 @@ TextureImporter:
       name: Spider_Death_30
       rect:
         serializedVersion: 2
-        x: 1580
-        y: 47
-        width: 132
-        height: 97
+        x: 1536
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -888,7 +901,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 301a3f394a703c34db663eacb9291067
     internalID: 0
     vertices: []
     indices: 

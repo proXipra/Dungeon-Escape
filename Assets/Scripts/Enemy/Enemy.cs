@@ -8,12 +8,17 @@ public abstract class Enemy : MonoBehaviour
     [SerializeField] protected float speed;
     [SerializeField] protected int gem;
 
+    [SerializeField] protected GameObject diamondPrefab;
+    [SerializeField] protected float gemSpawnForceX = 2f;
+    [SerializeField] protected float gemSpawnForceY = 7f;
+    [SerializeField] protected float spawnHeightOffset = 1f;
     [SerializeField] protected Transform waypointsParent;
     protected Transform[] waypoints;
     protected Vector3 targetPosition;
     protected Animator animator;
     protected SpriteRenderer sprite;
 
+    protected bool isDeath = false;
     protected bool isHit;
     protected Transform player;
 
@@ -42,8 +47,12 @@ public abstract class Enemy : MonoBehaviour
         {
             return;
         }
+        if (isDeath == false)
+        {
+            Movement();
+        }
 
-        Movement();
+        
     }
 
     protected virtual void Movement()
@@ -53,12 +62,10 @@ public abstract class Enemy : MonoBehaviour
         if (transform.position.x == waypoints[0].position.x)
         {
             targetPosition = waypoints[1].position;
-            //animator.SetTrigger("Idle");
         }
         else if (transform.position.x == waypoints[1].position.x)
         {
             targetPosition = waypoints[0].position;
-            //animator.SetTrigger("Idle");
         }
 
         if (isHit == false)  

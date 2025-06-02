@@ -96,7 +96,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 512
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -154,6 +154,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -161,10 +174,10 @@ TextureImporter:
       name: Moss_Giant_Hit_0
       rect:
         serializedVersion: 2
-        x: 164
-        y: 1643
-        width: 169
-        height: 228
+        x: 0
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,10 +196,10 @@ TextureImporter:
       name: Moss_Giant_Hit_1
       rect:
         serializedVersion: 2
-        x: 676
-        y: 1643
-        width: 169
-        height: 228
+        x: 512
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,10 +218,10 @@ TextureImporter:
       name: Moss_Giant_Hit_2
       rect:
         serializedVersion: 2
-        x: 1188
-        y: 1643
-        width: 165
-        height: 238
+        x: 1024
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,10 +240,10 @@ TextureImporter:
       name: Moss_Giant_Hit_3
       rect:
         serializedVersion: 2
-        x: 1700
-        y: 1643
-        width: 160
-        height: 245
+        x: 1536
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,10 +262,10 @@ TextureImporter:
       name: Moss_Giant_Hit_4
       rect:
         serializedVersion: 2
-        x: 164
-        y: 1131
-        width: 159
-        height: 240
+        x: 0
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,10 +284,10 @@ TextureImporter:
       name: Moss_Giant_Hit_5
       rect:
         serializedVersion: 2
-        x: 676
-        y: 1131
-        width: 161
-        height: 246
+        x: 512
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -293,10 +306,10 @@ TextureImporter:
       name: Moss_Giant_Hit_6
       rect:
         serializedVersion: 2
-        x: 1187
-        y: 1131
-        width: 168
-        height: 216
+        x: 1024
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -315,10 +328,10 @@ TextureImporter:
       name: Moss_Giant_Hit_7
       rect:
         serializedVersion: 2
-        x: 1699
-        y: 1131
-        width: 173
-        height: 184
+        x: 1536
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -337,10 +350,10 @@ TextureImporter:
       name: Moss_Giant_Hit_8
       rect:
         serializedVersion: 2
-        x: 163
-        y: 619
-        width: 174
-        height: 178
+        x: 0
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -359,10 +372,10 @@ TextureImporter:
       name: Moss_Giant_Hit_9
       rect:
         serializedVersion: 2
-        x: 675
-        y: 619
-        width: 178
-        height: 170
+        x: 512
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -381,10 +394,10 @@ TextureImporter:
       name: Moss_Giant_Hit_10
       rect:
         serializedVersion: 2
-        x: 1186
-        y: 619
-        width: 187
-        height: 179
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -403,10 +416,10 @@ TextureImporter:
       name: Moss_Giant_Hit_11
       rect:
         serializedVersion: 2
-        x: 1699
-        y: 619
-        width: 186
-        height: 189
+        x: 1536
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -425,10 +438,10 @@ TextureImporter:
       name: Moss_Giant_Hit_12
       rect:
         serializedVersion: 2
-        x: 163
-        y: 107
-        width: 182
-        height: 198
+        x: 0
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -447,10 +460,10 @@ TextureImporter:
       name: Moss_Giant_Hit_13
       rect:
         serializedVersion: 2
-        x: 676
-        y: 107
-        width: 177
-        height: 207
+        x: 512
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -469,10 +482,10 @@ TextureImporter:
       name: Moss_Giant_Hit_14
       rect:
         serializedVersion: 2
-        x: 1188
-        y: 107
-        width: 173
-        height: 215
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -491,10 +504,10 @@ TextureImporter:
       name: Moss_Giant_Hit_15
       rect:
         serializedVersion: 2
-        x: 1700
-        y: 107
-        width: 170
-        height: 221
+        x: 1536
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -513,7 +526,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 67ee7ef7f2a02ec4ab75d816b811e8ba
     internalID: 0
     vertices: []
     indices: 

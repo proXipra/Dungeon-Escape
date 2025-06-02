@@ -150,7 +150,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -208,6 +208,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -215,10 +228,10 @@ TextureImporter:
       name: Spider_Attack_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 813
-        width: 219
-        height: 65
+        x: 0
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,10 +250,10 @@ TextureImporter:
       name: Spider_Attack_1
       rect:
         serializedVersion: 2
-        x: 268
-        y: 816
-        width: 217
-        height: 62
+        x: 256
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,10 +272,10 @@ TextureImporter:
       name: Spider_Attack_2
       rect:
         serializedVersion: 2
-        x: 524
-        y: 820
-        width: 213
-        height: 62
+        x: 512
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,10 +294,10 @@ TextureImporter:
       name: Spider_Attack_3
       rect:
         serializedVersion: 2
-        x: 780
-        y: 820
-        width: 207
-        height: 72
+        x: 768
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -303,10 +316,10 @@ TextureImporter:
       name: Spider_Attack_4
       rect:
         serializedVersion: 2
-        x: 1036
-        y: 819
-        width: 199
-        height: 83
+        x: 1024
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -325,10 +338,10 @@ TextureImporter:
       name: Spider_Attack_5
       rect:
         serializedVersion: 2
-        x: 1292
-        y: 819
-        width: 190
-        height: 94
+        x: 1280
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,10 +360,10 @@ TextureImporter:
       name: Spider_Attack_6
       rect:
         serializedVersion: 2
-        x: 1548
-        y: 819
-        width: 180
-        height: 107
+        x: 1536
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -369,10 +382,10 @@ TextureImporter:
       name: Spider_Attack_7
       rect:
         serializedVersion: 2
-        x: 1804
-        y: 819
-        width: 170
-        height: 121
+        x: 1792
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -391,10 +404,10 @@ TextureImporter:
       name: Spider_Attack_8
       rect:
         serializedVersion: 2
-        x: 12
-        y: 563
-        width: 160
-        height: 133
+        x: 0
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -413,10 +426,10 @@ TextureImporter:
       name: Spider_Attack_9
       rect:
         serializedVersion: 2
-        x: 268
-        y: 564
-        width: 150
-        height: 145
+        x: 256
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -435,10 +448,10 @@ TextureImporter:
       name: Spider_Attack_10
       rect:
         serializedVersion: 2
-        x: 524
-        y: 565
-        width: 142
-        height: 150
+        x: 512
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -457,10 +470,10 @@ TextureImporter:
       name: Spider_Attack_11
       rect:
         serializedVersion: 2
-        x: 772
-        y: 532
-        width: 250
-        height: 211
+        x: 768
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -479,10 +492,10 @@ TextureImporter:
       name: Spider_Attack_12
       rect:
         serializedVersion: 2
-        x: 1027
-        y: 516
-        width: 254
-        height: 246
+        x: 1024
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -501,10 +514,10 @@ TextureImporter:
       name: Spider_Attack_13
       rect:
         serializedVersion: 2
-        x: 1281
-        y: 516
+        x: 1280
+        y: 512
         width: 256
-        height: 247
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -524,9 +537,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1536
-        y: 514
-        width: 257
-        height: 251
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -546,9 +559,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1792
-        y: 513
+        y: 512
         width: 256
-        height: 253
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -567,10 +580,10 @@ TextureImporter:
       name: Spider_Attack_16
       rect:
         serializedVersion: 2
-        x: 2
-        y: 260
-        width: 255
-        height: 247
+        x: 0
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -589,10 +602,10 @@ TextureImporter:
       name: Spider_Attack_17
       rect:
         serializedVersion: 2
-        x: 259
-        y: 263
-        width: 254
-        height: 239
+        x: 256
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -611,10 +624,10 @@ TextureImporter:
       name: Spider_Attack_18
       rect:
         serializedVersion: 2
-        x: 515
-        y: 266
-        width: 254
-        height: 233
+        x: 512
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -634,9 +647,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 768
-        y: 258
-        width: 257
-        height: 249
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -655,10 +668,10 @@ TextureImporter:
       name: Spider_Attack_20
       rect:
         serializedVersion: 2
-        x: 1027
-        y: 268
-        width: 254
-        height: 227
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -677,10 +690,10 @@ TextureImporter:
       name: Spider_Attack_21
       rect:
         serializedVersion: 2
-        x: 1283
-        y: 265
-        width: 254
-        height: 234
+        x: 1280
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -700,9 +713,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1536
-        y: 258
-        width: 257
-        height: 251
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -721,10 +734,10 @@ TextureImporter:
       name: Spider_Attack_23
       rect:
         serializedVersion: 2
-        x: 1795
-        y: 266
-        width: 253
-        height: 233
+        x: 1792
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -743,10 +756,10 @@ TextureImporter:
       name: Spider_Attack_24
       rect:
         serializedVersion: 2
-        x: 9
-        y: 54
-        width: 199
-        height: 147
+        x: 0
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -765,10 +778,10 @@ TextureImporter:
       name: Spider_Attack_25
       rect:
         serializedVersion: 2
-        x: 266
-        y: 54
-        width: 174
-        height: 139
+        x: 256
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -787,10 +800,10 @@ TextureImporter:
       name: Spider_Attack_26
       rect:
         serializedVersion: 2
-        x: 448
-        y: 113
-        width: 16
-        height: 19
+        x: 512
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -809,10 +822,10 @@ TextureImporter:
       name: Spider_Attack_27
       rect:
         serializedVersion: 2
-        x: 522
-        y: 52
-        width: 162
-        height: 127
+        x: 768
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -831,10 +844,10 @@ TextureImporter:
       name: Spider_Attack_28
       rect:
         serializedVersion: 2
-        x: 705
-        y: 113
-        width: 14
-        height: 18
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -853,10 +866,10 @@ TextureImporter:
       name: Spider_Attack_29
       rect:
         serializedVersion: 2
-        x: 780
-        y: 51
-        width: 167
-        height: 118
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -875,10 +888,10 @@ TextureImporter:
       name: Spider_Attack_30
       rect:
         serializedVersion: 2
-        x: 961
-        y: 114
-        width: 14
-        height: 16
+        x: 1536
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -893,77 +906,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Spider_Attack_31
-      rect:
-        serializedVersion: 2
-        x: 1034
-        y: 51
-        width: 198
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0473b568fcf979b10800000000000000
-      internalID: 1988233474168534848
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spider_Attack_32
-      rect:
-        serializedVersion: 2
-        x: 1290
-        y: 52
-        width: 212
-        height: 127
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 028cdf528f2d48ce0800000000000000
-      internalID: -1403765220601640928
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spider_Attack_33
-      rect:
-        serializedVersion: 2
-        x: 1545
-        y: 45
-        width: 222
-        height: 136
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9d80c40986cc8b460800000000000000
-      internalID: 7257775548977121497
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 88fc3e4c8f0e7e84e948ac15c63a2c95
     internalID: 0
     vertices: []
     indices: 
@@ -998,9 +945,6 @@ TextureImporter:
       Spider_Attack_29: -7215695272772625566
       Spider_Attack_3: 603225945861213092
       Spider_Attack_30: 3032391476906995699
-      Spider_Attack_31: 1988233474168534848
-      Spider_Attack_32: -1403765220601640928
-      Spider_Attack_33: 7257775548977121497
       Spider_Attack_4: -1588523883212844327
       Spider_Attack_5: 5577301503908604631
       Spider_Attack_6: -7335753375035327994
