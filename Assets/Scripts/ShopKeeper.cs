@@ -8,6 +8,11 @@ public class ShopKeeper : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Player player = other.GetComponent<Player>();
+            if (player != null)
+            {
+                UIManager.Instance.OpenShop(player.Diamond);
+            }
             _shopPanel.SetActive(true);
         }
     }
