@@ -13,7 +13,7 @@ public class Player : MonoBehaviour, IDamageable
     [SerializeField] private float _moveSpeed = 3f;
     [SerializeField] private float _jumpForce = 250f;
     private bool _delayJumping;
-    public int Diamond {  get; set; }
+    public int diamond;
     public int Health { get; set; }
 
     void Start()

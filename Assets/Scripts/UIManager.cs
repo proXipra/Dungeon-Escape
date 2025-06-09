@@ -18,6 +18,9 @@ public class UIManager : MonoBehaviour
     }
 
     [SerializeField] private TextMeshProUGUI _playerGemCountText;
+    [SerializeField] private GameObject _selection;
+    public int selectedItem { get; set; }
+
 
 
     private void Awake()
@@ -29,5 +32,15 @@ public class UIManager : MonoBehaviour
     public void OpenShop(int gemCount)
     {
         _playerGemCountText.text = "" + gemCount.ToString() + "G";
+    }
+
+    public void PlaceSelection(int itemID)
+    {
+        if (_selection.activeInHierarchy == false)
+        {
+            _selection.SetActive(true);
+        }
+        RectTransform selectionRect = _selection.GetComponent<RectTransform>();
+        selectionRect.anchoredPosition = new Vector2(selectionRect.anchoredPosition.x, -105 * itemID - 50);
     }
 }
