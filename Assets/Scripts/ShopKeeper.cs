@@ -60,6 +60,11 @@ public class ShopKeeper : MonoBehaviour
             if (_player.diamond >= _selectedItemCost)
             {
                 _player.diamond -= _selectedItemCost;
+                if (_currentlySelectedItem == 2)
+                {
+                    GameManager.Instance.HasCard = true;
+                    Debug.Log("Card has bought!");
+                }
                 Debug.Log("Remaining Gems: "+ _player.diamond);
             }
             else
