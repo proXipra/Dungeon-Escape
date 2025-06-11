@@ -16,7 +16,7 @@ public class ShopKeeper : MonoBehaviour
             _player = other.GetComponent<Player>();
             if (_player != null)
             {
-                UIManager.Instance.OpenShop(_player.diamond);
+                UIManager.Instance.OpenShop(_player.Diamond);
             }
             _shopPanel.SetActive(true);
         }
@@ -57,15 +57,15 @@ public class ShopKeeper : MonoBehaviour
     {
         if (_itemSelected == true)
         {
-            if (_player.diamond >= _selectedItemCost)
+            if (_player.Diamond >= _selectedItemCost)
             {
-                _player.diamond -= _selectedItemCost;
+                _player.Diamond -= _selectedItemCost;
                 if (_currentlySelectedItem == 2)
                 {
                     GameManager.Instance.HasCard = true;
                     Debug.Log("Card has bought!");
                 }
-                Debug.Log("Remaining Gems: "+ _player.diamond);
+                Debug.Log("Remaining Gems: "+ _player.Diamond);
             }
             else
             {

@@ -7,9 +7,13 @@ public class Diamond : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Player player = other.GetComponent<Player>();
-            player.diamond++;
-            Debug.Log("Player Diamond Count: "+ player.diamond);
-            Destroy(this.gameObject);
+            if (player != null)
+            {
+                player.AddGem();
+                Destroy(this.gameObject);
+            }
+            
+            
         }
     }
 }

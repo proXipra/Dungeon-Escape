@@ -13,7 +13,7 @@ public class Player : MonoBehaviour, IDamageable
     [SerializeField] private float _moveSpeed = 3f;
     [SerializeField] private float _jumpForce = 250f;
     private bool _delayJumping;
-    public int diamond;
+    public int Diamond { get; set; }
     public int Health { get; set; }
 
     void Start()
@@ -23,6 +23,8 @@ public class Player : MonoBehaviour, IDamageable
         _anim = GetComponent<PlayerAnimation>();
         _playerSprite = GetComponentInChildren<SpriteRenderer>();
         _arcSprite = transform.GetChild(1).GetComponent<SpriteRenderer>();
+
+        Health = 4;
     }
 
     void Update()
@@ -79,6 +81,11 @@ public class Player : MonoBehaviour, IDamageable
         }
     }
 
+    public void AddGem()
+    {
+        Diamond++;
+        UIManager.Instance.UpdateGemCount(Diamond);
+    }
 
     IEnumerator DelayJumping()
     {

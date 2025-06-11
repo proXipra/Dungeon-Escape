@@ -17,8 +17,10 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    [SerializeField] private TextMeshProUGUI _playerGemCountText;
+    [SerializeField] private TextMeshProUGUI _shopGemCount;
     [SerializeField] private GameObject _selection;
+    [SerializeField] private TextMeshProUGUI _hudGemCount;
+    [SerializeField] private GameObject[] _liveBars;
     public int selectedItem { get; set; }
 
 
@@ -28,10 +30,23 @@ public class UIManager : MonoBehaviour
         _instance = this;
     }
 
+    public void UpdateGemCount(int gemCount)
+    {
+        _hudGemCount.text = "" + gemCount;  
+    }
+
+    public void UpdateLives(int lives)
+    {
+        for (int i = lives; i < _liveBars.Length; i++)
+        {
+            //_liveBars[i].SetActive(false);   
+        }
+    }
+
 
     public void OpenShop(int gemCount)
     {
-        _playerGemCountText.text = "" + gemCount.ToString() + "G";
+        _shopGemCount.text = "" + gemCount.ToString() + "G";
     }
 
     public void PlaceSelection(int itemID)
