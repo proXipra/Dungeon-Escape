@@ -29,6 +29,10 @@ public class Player : MonoBehaviour, IDamageable
 
     void Update()
     {
+        if (Health < 1)
+        {
+            return;
+        }
         Movement();
 
         if (Input.GetKeyDown(KeyCode.Mouse0) && IsGrounded())
@@ -96,6 +100,17 @@ public class Player : MonoBehaviour, IDamageable
 
     public void Damage()
     {
-        Debug.Log("Damage has taken::Player");
+        if (Health < 1)
+        {
+            return;
+        }
+        Health--;
+        Debug.Log("Damage called!, Health: " + Health);
+        UIManager.Instance.UpdateLives(Health);
+        
+        if (Health < 1)
+        {
+            _anim.Die();
+        }
     }
 }

@@ -39,7 +39,7 @@ public class UIManager : MonoBehaviour
     {
         for (int i = lives; i < _liveBars.Length; i++)
         {
-            //_liveBars[i].SetActive(false);   
+            _liveBars[i].SetActive(false);   
         }
     }
 
