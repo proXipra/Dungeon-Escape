@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour, IDamageable
 {
@@ -10,11 +11,37 @@ public class Player : MonoBehaviour, IDamageable
     private SpriteRenderer _playerSprite;
     private SpriteRenderer _arcSprite;
 
+    public InputActionAsset InputActions;
+
+    private InputAction m_moveAction;
+    private InputAction m_jumpAction;
+    private InputAction m_attackAction;
+
+    private Vector2 m_moveAmt;
+
+
     [SerializeField] private float _moveSpeed = 3f;
     [SerializeField] private float _jumpForce = 250f;
     private bool _delayJumping;
     public int Diamond { get; set; }
     public int Health { get; set; }
+
+    private void OnEnable()
+    {
+        InputActions.FindActionMap("Player").Enable();
+    }
+
+    private void OnDisable()
+    {
+        InputActions.FindActionMap("Player").Disable();
+    }
+
+    private void Awake()
+    {
+        m_moveAction = InputSystem.actions.FindAction("Move");
+        m_jumpAction = InputSystem.actions.FindAction("Jump");
+        m_attackAction = InputSystem.actions.FindAction("Attack");
+    }
 
     void Start()
     {
@@ -29,13 +56,14 @@ public class Player : MonoBehaviour, IDamageable
 
     void Update()
     {
+
         if (Health < 1)
         {
             return;
         }
         Movement();
 
-        if (Input.GetKeyDown(KeyCode.Mouse0) && IsGrounded())
+        if (m_attackAction.WasPressedThisFrame() && IsGrounded())
         {
             //Debug.Log("Attack!");
             _anim.Attack();
@@ -45,17 +73,18 @@ public class Player : MonoBehaviour, IDamageable
     void Movement()
     {
 
-        if (IsGrounded() && Input.GetKeyDown(KeyCode.Space))
+        if (IsGrounded() && m_jumpAction.WasPressedThisFrame())
         {
             _rb.AddForce(Vector3.up * _jumpForce);
             StartCoroutine(DelayJumping());
             _delayJumping = true;   
             _anim.UpdateBool("Jumping", true);
         }
-        // 
-        float horizontalInput = Input.GetAxisRaw("Horizontal");
+
+        m_moveAmt = m_moveAction.ReadValue<Vector2>();
+        float horizontalInput = m_moveAmt.x;
         _rb.linearVelocity = new Vector2(horizontalInput * _moveSpeed, _rb.linearVelocityY);
-        //
+        
 
         Flip(horizontalInput);
         _anim.Move(horizontalInput);
